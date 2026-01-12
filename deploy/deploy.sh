@@ -13,7 +13,7 @@ DEPLOY_DIR="/home/deploy/hugo-blog"
 STAGING_DIR="${DEPLOY_DIR}/staging"
 RELEASES_DIR="${DEPLOY_DIR}/releases"
 CURRENT_LINK="${DEPLOY_DIR}/current"
-SERVICE_NAME="blog"
+SERVICE_NAME="hugo-blog"
 
 # Create releases directory if it doesn't exist
 mkdir -p "${RELEASES_DIR}"
@@ -48,11 +48,15 @@ rollback_deployment() {
 # Create a new release directory for this commit
 RELEASE_DIR="${RELEASES_DIR}/${COMMIT_HASH}"
 echo "Creating new release at ${RELEASE_DIR}..."
+
+# Remove the release directory if it already exists
+rm -rf "${RELEASE_DIR}"
 mkdir -p "${RELEASE_DIR}"
 
 # Copy files from staging to the release directory
 echo "Copying files from staging to release..."
 cp -r "${STAGING_DIR}"/* "${RELEASE_DIR}/"
+cp -r "${STAGING_DIR}"/.[!.]* "${RELEASE_DIR}/" 2>/dev/null || true
 
 # Update the current symlink to point to the new release
 echo "Promoting release ${COMMIT_HASH} to current..."
