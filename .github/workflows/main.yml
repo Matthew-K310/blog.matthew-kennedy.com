@@ -19,27 +19,22 @@ jobs:
           chmod 700 ~/.ssh
           ssh-keyscan -H matthew-kennedy.com >> ~/.ssh/known_hosts
       
-      - name: Test SSH connection
-        env:
-          USER: deploy
-          HOST: matthew-kennedy.com
-        run: |
-          ssh -i ~/.ssh/id_rsa -v $USER@$HOST "echo 'SSH connection successful'"
-      
       - name: Deploy blog files
         env:
           USER: deploy
           HOST: matthew-kennedy.com
-          DIR: /home/deploy/hugo-blog
+          STAGING_DIR: /home/deploy/hugo-blog/staging
         run: |
-          # Sync files to server (excluding .git and other unnecessary files)
+          # Ensure staging directory exists
+          ssh -i ~/.ssh/id_rsa $USER@$HOST "mkdir -p $STAGING_DIR"
+          
+          # Sync files to staging directory
           rsync -avz --delete \
             --exclude '.git' \
             --exclude '.github' \
             --exclude 'node_modules' \
-            --exclude 'current' \
             -e "ssh -i ~/.ssh/id_rsa" \
-            ./ $USER@$HOST:$DIR/
+            ./ $USER@$HOST:$STAGING_DIR/
           
           # Run the deploy script on the server
-          ssh -i ~/.ssh/id_rsa $USER@$HOST "bash $DIR/deploy/deploy.sh ${GITHUB_SHA}"
+          ssh -i ~/.ssh/id_rsa $USER@$HOST "bash $STAGING_DIR/deploy/deploy.sh ${GITHUB_SHA}"
