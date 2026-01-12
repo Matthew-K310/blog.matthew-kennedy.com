@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Exit on error
 set -e
@@ -13,7 +12,7 @@ COMMIT_HASH=$1
 DEPLOY_DIR="/home/deploy/hugo-blog"
 STAGING_DIR="${DEPLOY_DIR}/staging"
 CURRENT_DIR="${DEPLOY_DIR}/current"
-SERVICE_NAME="hugo-blog"
+SERVICE_NAME="blog"
 
 # Create current directory if it doesn't exist
 mkdir -p "${CURRENT_DIR}"
@@ -21,9 +20,9 @@ mkdir -p "${CURRENT_DIR}"
 # Copy files from staging to current directory
 echo "Deploying commit ${COMMIT_HASH} to ${CURRENT_DIR}..."
 rsync -a --delete \
-  --exclude '.git' \
-  --exclude '.github' \
-  "${STAGING_DIR}/" "${CURRENT_DIR}/"
+	--exclude '.git' \
+	--exclude '.github' \
+	"${STAGING_DIR}/" "${CURRENT_DIR}/"
 
 echo "Files deployed successfully."
 
