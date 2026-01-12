@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contents on My New Hugo Site</title>
+    <link>http://localhost:1313/content/</link>
+    <description>Recent content in Contents on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 Oct 2025 12:02:17 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Greeting</title>
+      <link>http://localhost:1313/content/posts/2025-10-09-a-greeting/</link>
+      <pubDate>Thu, 09 Oct 2025 12:02:17 +0000</pubDate>
+      <guid>http://localhost:1313/content/posts/2025-10-09-a-greeting/</guid>
+      <description>&lt;p&gt;To anyone reading this: &lt;strong&gt;Welcome!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been toying with the idea of starting a blog for a while, but I never quite knew where to start-so I kept putting it off.&lt;/p&gt;&#xA;&lt;p&gt;Well, I’ve started.&lt;/p&gt;&#xA;&lt;p&gt;I have a simple plan for this: to make it my social media replacement. I really, truly dislike the way modern social media has been going for a while now, but I still enjoy keeping up with people I don’t often get to see in person.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,45 @@
+baseurl = "https://blog.matthew-kennedy.com"
+title = "Blog | Matthew Kennedy.com"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[outputs]
+home = ["HTML", "RSS"]
+
+[params]
+  author = "Matthew Kennedy"
+  # info = "AV and Programming Hobbyist"
+  description = "The Blog of Matthew Kennedy"
+  keywords = "blog,developer,personal"
+
+  since = 2025
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Menu links
+# [[menu.main]]
+#   name = "Home"
+#   weight = 1
+#   url  = "/"
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 2
+#   url  = "posts/"
