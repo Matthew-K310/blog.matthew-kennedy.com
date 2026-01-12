@@ -16,7 +16,15 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.DEPLOY_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
           ssh-keyscan -H matthew-kennedy.com >> ~/.ssh/known_hosts
+      
+      - name: Test SSH connection
+        env:
+          USER: deploy
+          HOST: matthew-kennedy.com
+        run: |
+          ssh -i ~/.ssh/id_rsa -v $USER@$HOST "echo 'SSH connection successful'"
       
       - name: Deploy blog files
         env:
