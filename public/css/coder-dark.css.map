@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder-dark.css",
-	"sourceRoot": "/home/matthewkennedy/site/hugo",
+	"sourceRoot": "/home/matthewkennedy/dev/projects/matthew-kennedy.com/hugo",
 	"sources": [
 		"themes/hugo-coder/assets/scss/coder-dark.scss",
 		"themes/hugo-coder/assets/scss/_variables.scss",

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blog | Matthew Kennedy.com</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Blog | Matthew Kennedy.com</description>
+    <title>Meta on Blog | Matthew Kennedy.com</title>
+    <link>http://localhost:1313/tags/meta/</link>
+    <description>Recent content in Meta on Blog | Matthew Kennedy.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 Jan 2026 19:03:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technology: Hurting or Helping?</title>
       <link>http://localhost:1313/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</link>
