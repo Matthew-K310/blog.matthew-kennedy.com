@@ -1,0 +1,28 @@
+#!/bin/bash
+# Git post-receive hook for deploying Hugo site
+# Place this in your bare repo: /home/deploy/hugo-blog.git/hooks/post-receive
+
+set -e
+
+DEPLOY_DIR="/home/deploy/hugo-blog"
+SOURCE_DIR="${DEPLOY_DIR}/source"
+PUBLIC_DIR="${DEPLOY_DIR}/public"
+DEPLOY_BRANCH="main"
+
+while read oldrev newrev ref; do
+	branch=$(echo "$ref" | cut -d'/' -f3)
+
+	if [ "$branch" = "$DEPLOY_BRANCH" ]; then
+		echo "Deploying branch: $branch"
+
+		# Checkout latest code
+		mkdir -p "${SOURCE_DIR}"
+		git --work-tree="${SOURCE_DIR}" --git-dir="$(pwd)" checkout -f "$branch"
+
+		# Run the deploy script
+		cd "${SOURCE_DIR}"
+		bash deploy/deploy.sh
+
+		echo "Deployment complete!"
+	fi
+done

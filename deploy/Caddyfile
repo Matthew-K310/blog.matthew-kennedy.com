@@ -1,0 +1,19 @@
+blog.matthew-kennedy.com {
+	root * /home/deploy/hugo-blog/public
+	file_server
+
+	# Enable gzip compression
+	encode gzip
+
+	# Cache static assets
+	@static {
+		path *.css *.js *.ico *.gif *.jpg *.jpeg *.png *.svg *.woff *.woff2
+	}
+	header @static Cache-Control "public, max-age=31536000"
+
+	# Handle 404s with Hugo's 404 page
+	handle_errors {
+		rewrite * /404.html
+		file_server
+	}
+}
