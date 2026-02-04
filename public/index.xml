@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Matthew Kennedy.com</title>
-    <link>http://localhost:1313/</link>
+    <link>https://blog.matthew-kennedy.com/</link>
     <description>Recent content on Blog | Matthew Kennedy.com</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jan 2026 19:03:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 10:47:00 -0600</lastBuildDate>
+    <atom:link href="https://blog.matthew-kennedy.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Learn Programming Languages</title>
+      <link>https://blog.matthew-kennedy.com/posts/20260129t104751--how-to-learn-programming-languages__blog_programming_video/</link>
+      <pubDate>Thu, 29 Jan 2026 10:47:00 -0600</pubDate>
+      <guid>https://blog.matthew-kennedy.com/posts/20260129t104751--how-to-learn-programming-languages__blog_programming_video/</guid>
+      <description>&lt;p&gt;Source: &lt;a href=&#34;https://www.youtube.com/watch?v=uqpr8FFS9U0&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=uqpr8FFS9U0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;&#xA;  Abstract&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#abstract&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The brain throws away information it deems as useless or unimportant.&#xA;To properly learn a language, we must train our brain to see it as useful&#xA;information by immediately putting it into practice, and using it to fulfill&#xA;a need we have, whether that be a gap in our workflow, or a simple little tool&#xA;that makes a task just that &lt;em&gt;little&lt;/em&gt; bit faster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2026 Reading List</title>
+      <link>https://blog.matthew-kennedy.com/posts/20260128t113417--2026-reading-list__blog_reading/</link>
+      <pubDate>Wed, 28 Jan 2026 11:34:00 -0600</pubDate>
+      <guid>https://blog.matthew-kennedy.com/posts/20260128t113417--2026-reading-list__blog_reading/</guid>
+      <description>&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;TITLE&lt;/th&gt;&#xA;          &lt;th&gt;AUTHOR&lt;/th&gt;&#xA;          &lt;th&gt;SERIES&lt;/th&gt;&#xA;          &lt;th&gt;DATE STARTED&lt;/th&gt;&#xA;          &lt;th&gt;DATE FINISHED&lt;/th&gt;&#xA;          &lt;th&gt;RATING&lt;/th&gt;&#xA;          &lt;th&gt;Format&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Scrolling Ourselves to Death&lt;/td&gt;&#xA;          &lt;td&gt;Various&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2026-01-01&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Physical&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Stoner&lt;/td&gt;&#xA;          &lt;td&gt;John Williams&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2025-12-19&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;5/5&lt;/td&gt;&#xA;          &lt;td&gt;Physical&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Daily Doctrines&lt;/td&gt;&#xA;          &lt;td&gt;Kevin DeYoung&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2025-12-31&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Physical&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;The Hobbit&lt;/td&gt;&#xA;          &lt;td&gt;J.R.R Tolkien&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;2026-01-26&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Physical&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>Technology: Hurting or Helping?</title>
-      <link>http://localhost:1313/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</link>
+      <link>https://blog.matthew-kennedy.com/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</link>
       <pubDate>Sat, 10 Jan 2026 19:03:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</guid>
+      <guid>https://blog.matthew-kennedy.com/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</guid>
       <description>&lt;h2 id=&#34;initium&#34;&gt;&#xA;  Initium&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#initium&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Technology is everywhere in our daily lives.&#xA;At work and school, computers have become an essential part of how we work, to&#xA;the point that the vast majority of tasks can&amp;rsquo;t be done away from a screen.&#xA;At home, we spend our free time on our phones, computers, or TVs, seeking an&#xA;escape from the struggles of daily life, and the horrifying notion of being&#xA;alone with our own thoughts.&lt;/p&gt;</description>
     </item>
   </channel>

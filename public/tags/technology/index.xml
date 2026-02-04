@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on Blog | Matthew Kennedy.com</title>
-    <link>http://localhost:1313/tags/technology/</link>
+    <link>https://blog.matthew-kennedy.com/tags/technology/</link>
     <description>Recent content in Technology on Blog | Matthew Kennedy.com</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 10 Jan 2026 19:03:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.matthew-kennedy.com/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technology: Hurting or Helping?</title>
-      <link>http://localhost:1313/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</link>
+      <link>https://blog.matthew-kennedy.com/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</link>
       <pubDate>Sat, 10 Jan 2026 19:03:00 -0600</pubDate>
-      <guid>http://localhost:1313/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</guid>
+      <guid>https://blog.matthew-kennedy.com/posts/20260110t190340--technology-hurting-or-helping__equip_lesson_meta_technology/</guid>
       <description>&lt;h2 id=&#34;initium&#34;&gt;&#xA;  Initium&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#initium&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Technology is everywhere in our daily lives.&#xA;At work and school, computers have become an essential part of how we work, to&#xA;the point that the vast majority of tasks can&amp;rsquo;t be done away from a screen.&#xA;At home, we spend our free time on our phones, computers, or TVs, seeking an&#xA;escape from the struggles of daily life, and the horrifying notion of being&#xA;alone with our own thoughts.&lt;/p&gt;</description>
     </item>
   </channel>

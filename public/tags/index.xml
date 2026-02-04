@@ -2,38 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Blog | Matthew Kennedy.com</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blog.matthew-kennedy.com/tags/</link>
     <description>Recent content in Tags on Blog | Matthew Kennedy.com</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jan 2026 19:03:00 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jan 2026 10:47:00 -0600</lastBuildDate>
+    <atom:link href="https://blog.matthew-kennedy.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://blog.matthew-kennedy.com/tags/blog/</link>
+      <pubDate>Thu, 29 Jan 2026 10:47:00 -0600</pubDate>
+      <guid>https://blog.matthew-kennedy.com/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://blog.matthew-kennedy.com/tags/programming/</link>
+      <pubDate>Thu, 29 Jan 2026 10:47:00 -0600</pubDate>
+      <guid>https://blog.matthew-kennedy.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://blog.matthew-kennedy.com/tags/video/</link>
+      <pubDate>Thu, 29 Jan 2026 10:47:00 -0600</pubDate>
+      <guid>https://blog.matthew-kennedy.com/tags/video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://blog.matthew-kennedy.com/tags/reading/</link>
+      <pubDate>Wed, 28 Jan 2026 11:34:00 -0600</pubDate>
+      <guid>https://blog.matthew-kennedy.com/tags/reading/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Equip</title>
-      <link>http://localhost:1313/tags/equip/</link>
+      <link>https://blog.matthew-kennedy.com/tags/equip/</link>
       <pubDate>Sat, 10 Jan 2026 19:03:00 -0600</pubDate>
-      <guid>http://localhost:1313/tags/equip/</guid>
+      <guid>https://blog.matthew-kennedy.com/tags/equip/</guid>
       <description></description>
     </item>
     <item>
       <title>Lesson</title>
-      <link>http://localhost:1313/tags/lesson/</link>
+      <link>https://blog.matthew-kennedy.com/tags/lesson/</link>
       <pubDate>Sat, 10 Jan 2026 19:03:00 -0600</pubDate>
-      <guid>http://localhost:1313/tags/lesson/</guid>
+      <guid>https://blog.matthew-kennedy.com/tags/lesson/</guid>
       <description></description>
     </item>
     <item>
       <title>Meta</title>
-      <link>http://localhost:1313/tags/meta/</link>
+      <link>https://blog.matthew-kennedy.com/tags/meta/</link>
       <pubDate>Sat, 10 Jan 2026 19:03:00 -0600</pubDate>
-      <guid>http://localhost:1313/tags/meta/</guid>
+      <guid>https://blog.matthew-kennedy.com/tags/meta/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
+      <link>https://blog.matthew-kennedy.com/tags/technology/</link>
       <pubDate>Sat, 10 Jan 2026 19:03:00 -0600</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <guid>https://blog.matthew-kennedy.com/tags/technology/</guid>
       <description></description>
     </item>
   </channel>
