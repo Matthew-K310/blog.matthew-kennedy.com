@@ -11,7 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive # Add this line
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
 
       - name: Set up SSH
         run: |
@@ -21,22 +30,12 @@ jobs:
           chmod 700 ~/.ssh
           ssh-keyscan -H matthew-kennedy.com >> ~/.ssh/known_hosts
 
-      - name: Deploy blog files
+      - name: Deploy to server
         env:
           USER: deploy
           HOST: matthew-kennedy.com
-          STAGING_DIR: /home/deploy/hugo-blog/staging
+          PUBLIC_DIR: /home/deploy/hugo-blog/public
         run: |
-          # Ensure staging directory exists
-          ssh -i ~/.ssh/id_rsa $USER@$HOST "mkdir -p $STAGING_DIR"
-
-          # Sync files to staging directory
           rsync -avz --delete \
-            --exclude '.git' \
-            --exclude '.github' \
-            --exclude 'node_modules' \
             -e "ssh -i ~/.ssh/id_rsa" \
-            ./ $USER@$HOST:$STAGING_DIR/
-
-          # Run the deploy script on the server
-          ssh -i ~/.ssh/id_rsa $USER@$HOST "bash $STAGING_DIR/deploy/deploy.sh ${GITHUB_SHA}"
+            ./public/ $USER@$HOST:$PUBLIC_DIR/
