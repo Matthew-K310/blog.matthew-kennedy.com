@@ -25,5 +25,6 @@ So what can we do?
 
 Well, there are [many](https://artixlinux.org/), [many](https://www.gentoo.org/), [alternatative](https://voidlinux.org/) [Linux](https://guix.gnu.org/) and [BSD](https://www.freebsd.org/) distros that are free from systemd, and there are resources like <https://nosystemd.org/> that are helping others get away from this bloated nightmare of what was once simply an init system.
 
-Until next time, stay safe, and God bless,
+Until next time stay safe, and God bless,
+
 Matthew
