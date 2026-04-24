@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on The Blog of Matthew Kennedy</title>
+    <link>http://localhost:42853/tags/programming/</link>
+    <description>Recent content in Programming on The Blog of Matthew Kennedy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Jan 2026 10:47:00 -0600</lastBuildDate>
+    <atom:link href="http://localhost:42853/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Learn Programming Languages</title>
+      <link>http://localhost:42853/posts/20260129t104751--how-to-learn-programming-languages__blog_programming_video/</link>
+      <pubDate>Thu, 29 Jan 2026 10:47:00 -0600</pubDate>
+      <guid>http://localhost:42853/posts/20260129t104751--how-to-learn-programming-languages__blog_programming_video/</guid>
+      <description>&lt;p&gt;Source: &lt;a href=&#34;https://www.youtube.com/watch?v=uqpr8FFS9U0&#34;&gt;https://www.youtube.com/watch?v=uqpr8FFS9U0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;The brain throws away information it deems as useless or unimportant.&#xA;To properly learn a language, we must train our brain to see it as useful&#xA;information by immediately putting it into practice, and using it to fulfill&#xA;a need we have, whether that be a gap in our workflow, or a simple little tool&#xA;that makes a task just that &lt;em&gt;little&lt;/em&gt; bit faster.&lt;/p&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;Oglo recommends a 4-step process:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

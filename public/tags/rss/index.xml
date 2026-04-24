@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rss on The Blog of Matthew Kennedy</title>
+    <link>http://localhost:42853/tags/rss/</link>
+    <description>Recent content in Rss on The Blog of Matthew Kennedy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 24 Apr 2026 11:37:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:42853/tags/rss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feeds I Love</title>
+      <link>http://localhost:42853/posts/20260424t113727--feeds-i-love__blog_rss/</link>
+      <pubDate>Fri, 24 Apr 2026 11:37:00 -0500</pubDate>
+      <guid>http://localhost:42853/posts/20260424t113727--feeds-i-love__blog_rss/</guid>
+      <description>&lt;p&gt;This is a list of my favorite RSS feeds and blogs, and I plan to update it regularly for&#xA;both myself and for others.&lt;/p&gt;&#xA;&lt;p&gt;A complete list of my feeds/blogs/sites will be available on &lt;a href=&#34;https://matthew-kennedy.com/links&#34;&gt;my links page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;friends&#34;&gt;Friends&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://joshuablais.com/feed.xml&#34;&gt;Joshua Blais&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://linuxmaxxing.com/index.xml&#34;&gt;Scotty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cashmere.rs/feed.xml&#34;&gt;cashmere&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xn--gckvb8fzb.com/index.xml&#34;&gt;Marius&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://joshtronic.com/atom.xml&#34;&gt;Josh Sherman&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://inv.thepixora.com/feed/channel/UCwjc4WMqQWmQCUXt3XpZJ9A&#34;&gt;Lindon Slaght&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;reading&#34;&gt;Reading&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://irreal.org/blog/?feed=rss2&#34;&gt;Irreal&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://emacsredux.com/atom.xml&#34;&gt;Emacs Redux (Bozhidar Batsov)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://protesilaos.com/master.xml&#34;&gt;Protesilaos&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://sachachua.com/blog/category/emacs/feed/&#34;&gt;Sacha Chua&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://jacobwsmith.xyz/feed.xml&#34;&gt;Jacob Smith&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://christiantietze.de/feed.atom&#34;&gt;Christian Tietze&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;watching&#34;&gt;Watching&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve moved all YouTube feeds to &lt;a href=&#34;https://invidious.io/&#34;&gt;Invidious&lt;/a&gt;, as the YouTube RSS feeds seem to be&#xA;on their last legs.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

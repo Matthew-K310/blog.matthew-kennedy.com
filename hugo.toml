@@ -1,0 +1,6 @@
+baseURL = 'https://blog.matthew-kennedy.com/'
+locale = 'en-us'
+title = 'The Blog of Matthew Kennedy'
+site-title = 'The Blog of Matthew Kennedy'
+theme = "compline"
+timeZone = "America/Chicago"

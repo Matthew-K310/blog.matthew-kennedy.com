@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting up a file share for media links | The Blog of Matthew Kennedy</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Setting up a file share for media links</span></h1>
+<h2 class="author">[Matthew Kennedy]</h2>
+<h2 class="date">2025/10/10</h2>
+</div>
+
+<main>
+<h2 id="introduction">Introduction</h2>
+<p>While I was hanging out in the vt100 chat room (see <a href="https://xn--gckvb8fzb.com/contact/">https://xn&ndash;gckvb8fzb.com/contact/</a>), a friend of mine shared an image link with a domain I hadn’t seen before.</p>
+<p>Curious, I asked about it - and he explained that he has a file share set up that’s just an SFTP server made accessible through <strong>Caddy</strong>.</p>
+<p>As someone who enjoys self-hosting as much as possible, I decided to set up something similar myself.</p>
+<p>However, my ISP is <strong>Spectrum</strong>, and they aren’t exactly friendly about unblocking ports (HTTP, HTTPS, SSH, etc.), so I had to find a workaround.</p>
+<h2 id="system-setup">System Setup</h2>
+<p>I already have an <strong>NGINX Proxy Manager (NPM)</strong> instance running inside an <strong>LXC container</strong> on my <strong>Proxmox</strong> server, which runs on a <strong><strong>Dell OptiPlex 3020 SFF</strong></strong> with an <strong>Intel i5-4590</strong> and <strong>8 GB of RAM</strong>.</p>
+<h2 id="configuring-caddy">Configuring Caddy</h2>
+<p>I set up <strong>Caddy</strong> to host the root directory of my SFTP server on port 80 and pointed <strong>NPM</strong> to the local IP address at that port.</p>
+<p>Then I added my existing SSL certificate within <strong>NPM</strong>.</p>
+<h2 id="add-file-config-blocks"><!-- raw HTML omitted -->TODO<!-- raw HTML omitted --> Add File Config Blocks</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cfg" data-lang="cfg"><span style="display:flex;"><span><span style="color:#75715e"># Example Caddyfile configuration</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">:TODO: add example here</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cfg" data-lang="cfg"><span style="display:flex;"><span><span style="color:#75715e"># Example SSH/SFTP configuration</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">:TODO: add example here</span>
+</span></span></code></pre></div><h2 id="testing-the-setup">Testing the Setup</h2>
+<p>Once everything was configured, I just needed to upload something to the server to test access.</p>
+<figure><img src="other/assets/20251010/20251010_172845.png"
+    alt="Test file screenshot" width="80%">
+</figure>
+
+<p>Now, when I navigate to the IP address or domain in my browser, I can copy the link to the file and share it with whoever I please.</p>
+<p><a href="https://files.matthewcloud.us/very_important_file.mp4">https://files.matthewcloud.us/very_important_file.mp4</a></p>
+<h2 id="performance-and-future-plans">Performance and Future Plans</h2>
+<p>My server doesn’t have a GPU, which means that video transcoding takes quite a while. I hope to upgrade the hardware in the future — but that’s a topic for another time.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Thank you for indulging me,  and I’ll see you in the next one.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><strong>God bless,</strong>
+<strong>Matthew</strong></p>
+<!-- raw HTML omitted -->
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

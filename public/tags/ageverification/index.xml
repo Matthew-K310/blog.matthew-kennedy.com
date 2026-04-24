@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ageverification on The Blog of Matthew Kennedy</title>
+    <link>http://localhost:42853/tags/ageverification/</link>
+    <description>Recent content in Ageverification on The Blog of Matthew Kennedy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Mar 2026 17:37:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:42853/tags/ageverification/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical exhaustion and the downfall of systemd</title>
+      <link>http://localhost:42853/posts/20260320t173728--technical-exhaustion-and-the-downfall-of-systemd__ageverification_linux_systemd/</link>
+      <pubDate>Fri, 20 Mar 2026 17:37:00 -0500</pubDate>
+      <guid>http://localhost:42853/posts/20260320t173728--technical-exhaustion-and-the-downfall-of-systemd__ageverification_linux_systemd/</guid>
+      <description>&lt;p&gt;I opened &lt;a href=&#34;https://github.com/skeeto/elfeed&#34;&gt;Elfeed&lt;/a&gt; (the best RSS reader) to see this post&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://itsfoss.com/news/systemd-age-verification/&#34;&gt;https://itsfoss.com/news/systemd-age-verification/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I was struck by many thoughts and emotions, mainly those of &amp;ldquo;What the heck?&amp;rdquo; and a general feeling of frustration.&#xA;Amongst all of this, I also felt something that has become all to familiar to me in this era in which we live: mental exhaustion.&lt;/p&gt;&#xA;&lt;p&gt;These days, it seems like we live in a never-ending nightmare for privacy and our basic rights to live our lives in peace.&#xA;This age verification garbage is just the next step in the march towards complete monitoring (think &lt;a href=&#34;https://openlibrary.org/works/OL1168083W/Nineteen_Eighty-Four?edition=key%3A/books/OL3174961M&#34;&gt;1984&lt;/a&gt;, but with a nice coat of &amp;ldquo;Think of the children!&amp;rdquo;).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
