@@ -1,0 +1,3 @@
+[submodule "themes/compline"]
+	path = themes/compline
+	url = https://github.com/Matthew-K310/compline-hugo.git

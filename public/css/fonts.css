@@ -1,12 +1,7 @@
 body {
-	font-family: "Iosevka Web", sans-serif;
-	font-size: 130%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 code {
-	font-family: "JetBrains Mono", Monaco, monospace;
-	font-size: 85%;
-}
-blockquote {
-	font-family: "Alegreya", Times New Roman, serif;
-	font-size: 100%;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 85%;
 }
