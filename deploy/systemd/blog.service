@@ -1,0 +1,4 @@
+# NOTE: This service is no longer needed.
+# Caddy serves the static files directly.
+# Run: sudo systemctl disable blog.service
+# Then delete this file from /etc/systemd/system/

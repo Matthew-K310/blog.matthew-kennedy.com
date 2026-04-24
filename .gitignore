@@ -1,0 +1,9 @@
+# Hugo generated output
+public/
+
+# Hugo resources cache
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
